@@ -1,0 +1,65 @@
+body {
+    font-family: 'Montserrat', sans-serif; /* Nova fonte */
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* Cor de fundo mais clara */
+}
+
+.container-fluid {
+    border-bottom: 2px solid #fff; /* Adiciona uma borda inferior ao cabeçalho */
+    background: linear-gradient(135deg, #b3009b, #ff66b2); /* Gradiente de fundo */
+    padding: 20px; /* Espaçamento interno */
+}
+
+h1 {
+    font-size: 2.5rem; /* Aumenta o tamanho da fonte do título */
+    margin-bottom: 0.5rem; /* Espaçamento abaixo do título */
+    font-weight: bold; /* Título em negrito */
+}
+
+p {
+    font-size: 1.2rem; /* Tamanho da fonte do parágrafo */
+    margin-bottom: 1rem; /* Espaçamento abaixo do parágrafo */
+}
+
+.col-sm-4 {
+    padding: 20px; /* Espaçamento interno nas colunas */
+    background-color: #f8f9fa; /* Cor de fundo clara para as colunas */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: transform 0.2s; /* Transição suave */
+}
+
+.col-sm-4:hover {
+    transform: scale(1.05); /* Efeito de zoom ao passar o mouse */
+}
+
+.card {
+    margin-top: 20px; /* Espaçamento acima do rodapé */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+.nav-link {
+    color: #b3009b; /* Cor dos links */
+    transition: color 0.2s; /* Transição suave */
+}
+
+.nav-link:hover {
+    color: #ff66b2; /* Cor dos links ao passar o mouse */
+}
+
+/* Adiciona efeito de scroll suave */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Adiciona efeito de fade-in */
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+ .fade-in.show {
+    opacity: 1;
+}
